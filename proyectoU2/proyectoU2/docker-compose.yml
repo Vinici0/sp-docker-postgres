@@ -8,7 +8,7 @@ services:
     ports:
       - 8080:8080
     environment:
-      - DATABASE_URL=jdbc:postgresql://java_db:5445/postgres
+      - DATABASE_URL=jdbc:postgresql://java_db:5432/postgres
       - DATABASE_USERNAME=odoo_db
       - DATABASE_PASSWORD=odoo_db
     depends_on:
@@ -22,7 +22,7 @@ services:
       - POSTGRES_USER=odoo_db
       - PGDATA=/var/lib/postgresql/data/pgdata
     ports:
-      - "5446:5432"
+      - "5432:5432"
     # volumes:
     #   - odoo-db-data:/var/lib/postgresql/data/pgdata
 # volumes:
