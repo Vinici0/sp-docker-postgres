@@ -1,0 +1,5 @@
+# Created at 2024-02-05T01:41:11.445
+Boot Manifest-JAR contains absolute paths in classpath 'D:\descargas\Downloads\keren-docker\proyectoU2\proyectoU2\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
